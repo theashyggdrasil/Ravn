@@ -116,6 +116,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\Main\Ravn.cpp" />
+    <ClCompile Include="..\Utilities\RNG.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Main\stdafx.h" />
+    <ClInclude Include="..\Utilities\RNG.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
